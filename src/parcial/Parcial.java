@@ -7,10 +7,10 @@ public class Parcial {
        int valorDos = 3;
        int total = 0; 
        int resultado = 0;
-       for(int i = valorDos; i <= valorUno; ){  
+       for(int i = 0; i <= valorUno; ){  
         
            total = (i += valorDos);
-           total = (total - valorDos);
+           
            resultado = ( resultado + 1);
         }
       
