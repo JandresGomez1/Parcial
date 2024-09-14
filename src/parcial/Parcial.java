@@ -7,10 +7,10 @@ public class Parcial {
        int valorDos = 3;
        int total = 0; 
        int resultado = 0;
-       for(int i = 0; i <= valorUno; ){  
+       for(int i = valorDos; i <= valorUno; ){  
         
            total = (i += valorDos);
-           
+           total = (total - valorDos);
            resultado = ( resultado + 1);
         }
       
@@ -18,11 +18,11 @@ public class Parcial {
         if(resultante == 0){
             System.out.println("La division es exacta");
         
-            }else{System.out.println("La divesion es inexacta");
+            }else{System.out.println("La division es inexacta");
         }
        
         System.out.println("EL resultado de la division es: " + resultado);
-        System.out.println("el resultante es: " + resultante);
+        System.out.println("El resultante es: " + resultante);
     }
         
 }
